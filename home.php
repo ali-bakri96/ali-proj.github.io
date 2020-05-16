@@ -44,7 +44,7 @@ $page_title = strtoupper(str_replace(".php", "", $page_uri));
         <div class="slide">
             <img id="img" src="images/1.jpg" width="500px" height="250px">
         </div>
-      	        <button><a href="">search </a></button>
+      	        <button><a href="https://www.google.com/" target="_blank">search </a></button>
 
         <div class="sections">
               <div class="section">
