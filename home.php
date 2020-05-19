@@ -11,19 +11,12 @@ if(mysqli_connect_error()) {
 
 ?>
 
-<?php
-
-$file_uri = array_filter(explode("/", $_SERVER["REQUEST_URI"]));
-$page_uri = $file_uri[count($file_uri)];
-$page_title = strtoupper(str_replace(".php", "", $page_uri));
-
-?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title><?=$page_title;?></title>
+    <title>ALi Al-bakri</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body onload="slide()">
